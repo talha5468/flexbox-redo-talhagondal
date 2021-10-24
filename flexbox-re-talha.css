@@ -1,0 +1,32 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 20;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/2-cloud-study-stormy-sunset-john-constable.jpg);
+}
+.parent {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.child {
+  border: 0.5rem solid rgb(104, 15, 15);
+  width: 25rem;
+}
+.painting {
+  width: 20rem;
+}
+h1 {
+  font-family: "PT Serif", serif;
+  font-size: 4rem;
+  color: rgb(104, 15, 15);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
