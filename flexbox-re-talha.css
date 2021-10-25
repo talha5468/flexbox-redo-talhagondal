@@ -5,6 +5,8 @@ body,
   margin: 20;
   box-sizing: border-box;
   font-size: 62.5%;
+}
+body {
   background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/2-cloud-study-stormy-sunset-john-constable.jpg);
 }
 .parent {
@@ -20,6 +22,15 @@ body,
 .painting {
   width: 20rem;
 }
+
+.bird {
+  width: 7rem;
+  position: relative;
+  animation: flight 7s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.1s;
+}
+
 h1 {
   font-family: "PT Serif", serif;
   font-size: 4rem;
@@ -55,6 +66,15 @@ h3:hover {
 
 .painting:active {
   transform: scale(1.5, 1.5);
+}
+
+@keyframes flight {
+  1% {
+    left: 0.1%;
+  }
+  50% {
+    left: 110%;
+  }
 }
 
 @media (max-width: 1000px) {
