@@ -2,7 +2,7 @@ html,
 body,
 * {
   padding: 0;
-  margin: 20;
+  margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
 }
@@ -13,14 +13,17 @@ body {
   font-size: 5rem;
   display: flex;
   justify-content: space-between;
+  margin: 40;
 }
 .child {
   border: 0.5rem solid rgb(104, 15, 15);
   box-shadow: 1rem 1rem 1rem rgb(93, 108, 138);
   width: 25rem;
+  margin: 20;
 }
 .painting {
   width: 20rem;
+  margin: 20;
 }
 
 .bird {
@@ -41,6 +44,7 @@ h1 {
 
 h2 {
   text-align: center;
+  margin: 20;
 }
 
 h3 {
